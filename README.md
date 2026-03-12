@@ -3,7 +3,7 @@ This repository contains all scripts and pre-processed data required to reproduc
 
 # Acoustic Analysis and Classification Pipeline
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.18959833)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 
@@ -18,7 +18,7 @@ This repository contains all scripts and pre-processed data required to reproduc
 
 Raw audio recordings are not distributed here due to size constraints. Selected audio samples and all intermediate data products are available on Zenodo:
 
-**Dataset:** [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
+**Dataset:** [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.18959833)
 
 The audio subset consists of one minute of recording every two hours for one full day per month (March, May, July, October, and December) across five habitats (wet grassland, forest, lake, pond, and savanna). These excerpts illustrate the soundscape conditions used for acoustic feature extraction and subsequent analyses.
 
