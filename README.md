@@ -31,13 +31,11 @@ All intermediate products (acoustic features and classification outputs) are pro
 
 ```
 soundscape-mozambique-pnas/
-├── scripts/
-│   ├── figure2B_radar.py          # Radar plots of dominant taxa presence
-│   ├── 1-features_extraction.py   # Acoustic feature extraction
-│   ├── 2-classification.py        # SVM classification
-│   └── 3-Result-figure3-4-5.py    # Results and figure generation
-├── data/
-│   └── presence_rate_acoustic_data.xlsx
+├── figure2B_radar.py          # Radar plots of dominant taxa presence
+├── 1-features_extraction.py   # Acoustic feature extraction
+├── 2-classification.py        # SVM classification
+├── 3-Result-figure3-4-5.py    # Results and figure generation
+├── presence_rate_acoustic_data.xlsx
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -52,7 +50,7 @@ The pipeline is organized into two main components: presence analysis (Figure 2B
 ### A — Figure 2B: Radar plots of dominant taxa presence
 
 - **Script:** `figure2B_radar.py`
-- **Input (provided):** `data/presence_rate_acoustic_data.xlsx`
+- **Input (provided):** `presence_rate_acoustic_data.xlsx`
 - **Description:** Generates radar (polar) plots representing the mean daily presence rate (proportion of minutes containing vocalizations) of dominant taxa across five habitats, day and night periods, and five months. Outputs one radar plot per habitat × period combination.
 
 ### B — Acoustic classification workflow
@@ -74,18 +72,6 @@ The pipeline is organized into two main components: presence analysis (Figure 2B
 - **Script:** `3-Result-figure3-4-5.py`
 - **Input (provided on Zenodo):** `results_classification/`
 - **Description:** Computes evaluation metrics and produces visualizations including accuracy and F1-score summaries, mutual information metrics, and boxplots. Used to generate Figures 3, 4, and 5.
-
----
-
-## Reproducing the Figures
-
-All scripts can run independently. Intermediate outputs provided on Zenodo allow direct reproduction of all figures without re-running feature extraction or classification.
-
-| Figure | Script | Zenodo data needed |
-|---|---|---|
-| Figure 2B | `figure2B_radar.py` | No (data included here) |
-| Figures 3–5 | `3-Result-figure3-4-5.py` | Yes (`results_classification/`) |
-
 ---
 
 ## License
@@ -94,15 +80,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-## Citation
-
-If you use this code in your research, please cite:
-
-> [Author names] ([Year]). *The Missing Soundscape: Ultrasound Reveals Hidden Dimensions of Ecosystem Dynamics*. Proceedings of the National Academy of Sciences. https://doi.org/[ARTICLE DOI]
-
----
-
 ## Contact
 
-**[Your Name]** — [your.email@institution.edu]
-[ORCID: https://orcid.org/XXXX-XXXX-XXXX-XXXX]
+**[Margaux Thieury]** — [thieury-m@hotmail.fr]
+[ORCID: https://orcid.org/0009-0005-8964-3815]
