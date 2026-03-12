@@ -3,7 +3,7 @@ This repository contains all scripts and pre-processed data required to reproduc
 
 # Acoustic Analysis and Classification Pipeline
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18959833.svg)](https://zenodo.org/records/18959834?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI4MjliMTEzLWY1ZTAtNDM5OC1iZmJkLTNmMWE0MjBhYTkzOCIsImRhdGEiOnt9LCJyYW5kb20iOiJkM2YyY2FmOTQ1ZGQyYmZlZDlmNGQyYjJlZmNjNmI0MyJ9.8qUppOvSjg1oxeIEoNw1aQBdMrT2NNrBJN8VuNbnGV5C0L1iYIWDQd04-bHImScmvyE0dzNXlUFzDy6meW_wkA)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18959834.svg)](https://zenodo.org/records/18959834?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI4MjliMTEzLWY1ZTAtNDM5OC1iZmJkLTNmMWE0MjBhYTkzOCIsImRhdGEiOnt9LCJyYW5kb20iOiJkM2YyY2FmOTQ1ZGQyYmZlZDlmNGQyYjJlZmNjNmI0MyJ9.8qUppOvSjg1oxeIEoNw1aQBdMrT2NNrBJN8VuNbnGV5C0L1iYIWDQd04-bHImScmvyE0dzNXlUFzDy6meW_wkA)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 
@@ -18,7 +18,7 @@ This repository contains all scripts and pre-processed data required to reproduc
 
 Raw audio recordings are not distributed here due to size constraints. Selected audio samples and all intermediate data products are available on Zenodo:
 
-**Dataset:** [https://doi.org/10.5281/zenodo.18959833](https://zenodo.org/records/18959834?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI4MjliMTEzLWY1ZTAtNDM5OC1iZmJkLTNmMWE0MjBhYTkzOCIsImRhdGEiOnt9LCJyYW5kb20iOiJkM2YyY2FmOTQ1ZGQyYmZlZDlmNGQyYjJlZmNjNmI0MyJ9.8qUppOvSjg1oxeIEoNw1aQBdMrT2NNrBJN8VuNbnGV5C0L1iYIWDQd04-bHImScmvyE0dzNXlUFzDy6meW_wkA)
+**Dataset:** [https://doi.org/10.5281/zenodo.18959834](https://zenodo.org/records/18959834?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI4MjliMTEzLWY1ZTAtNDM5OC1iZmJkLTNmMWE0MjBhYTkzOCIsImRhdGEiOnt9LCJyYW5kb20iOiJkM2YyY2FmOTQ1ZGQyYmZlZDlmNGQyYjJlZmNjNmI0MyJ9.8qUppOvSjg1oxeIEoNw1aQBdMrT2NNrBJN8VuNbnGV5C0L1iYIWDQd04-bHImScmvyE0dzNXlUFzDy6meW_wkA)
 
 The audio subset consists of one minute of recording every two hours for one full day per month (March, May, July, October, and December) across five habitats (wet grassland, forest, lake, pond, and savanna). These excerpts illustrate the soundscape conditions used for acoustic feature extraction and subsequent analyses.
 
